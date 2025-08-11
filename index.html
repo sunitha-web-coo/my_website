@@ -3,29 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My First Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0b7dda;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Website!</h1>
-        <p>Deployed using GitHub Pages 🚀</p>
+        <h1>Welcome to My Website</h1>
+        <p>Deployed with GitHub Pages 🚀</p>
     </header>
 
     <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a simple static website hosted for free using GitHub Pages.</p>
-        </section>
-
-        <section>
-            <h2>Contact</h2>
-            <p>Email: example@email.com</p>
-        </section>
+        <h2>Hello, Visitor!</h2>
+        <p>This is a simple HTML website that you can host for free.</p>
+        <button onclick="alert('Thanks for visiting!')">Click Me</button>
     </main>
 
     <footer>
-        <p>&copy; 2025 My GitHub Pages Website</p>
+        <p>&copy; 2025 My Website</p>
     </footer>
+
 </body>
 </html>
